@@ -1,22 +1,21 @@
 :root {
-    --hue: 210;
+    --hue: 160;
 }
 
 * {
-    background: #1C1F24;
     color: #ececec;
     font-family: "Roboto", "Ubuntu", Arial, sans-serif;
 }
 
 html {
     min-height: 100vh;
-    background: linear-gradient(-45deg, #0a0b0f, #010e04, #010313, #130109);
     background-size: 400% 400%;
     animation: aiGradient 60s ease infinite;
 }
 
 body {
   color: #E6E6E6;
+  background: #1a1a1a;
 }
 
 @keyframes aiGradient {
@@ -64,6 +63,10 @@ nav {
     color: #dcdcdc;
 }
 
+details {
+    border: 2px solid hsl(var(--hue), 70%, 20%);
+}
+
 details:not([open]) {
     padding: 0.5rem 1rem;
 
@@ -79,6 +82,7 @@ summary {
 details[open] {
     summary {
         padding: 0.5rem 1rem;
+        border-bottom: 2px solid hsl(var(--hue), 70%, 20%);
     }
 
     p.description {
@@ -102,11 +106,12 @@ details[open] {
 }
 
 input {
-    border: 2px solid #ececec;
+    border: 2px solid hsl(var(--hue), 100%, 50%);
     padding: 0.5rem;
     margin-bottom: 2rem;
     border-radius: 8px;
     margin-inline-start: 1rem;
+    background: rgba(0, 0, 0, 0.1)
 }
 
 .links {
