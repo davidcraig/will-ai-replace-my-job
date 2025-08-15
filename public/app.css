@@ -126,8 +126,19 @@ input {
     font-weight: bold;
 }
 
+.profession-list {
+    container-type: inline-size;
+    container-name: professions;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: .5rem;
+}
+
+@container professions (width < 800px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
 }
