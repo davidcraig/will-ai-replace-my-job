@@ -66,6 +66,10 @@ nav {
 
 details:not([open]) {
     padding: 0.5rem 1rem;
+
+    summary {
+        cursor: pointer;
+    }
 }
 
 summary {
