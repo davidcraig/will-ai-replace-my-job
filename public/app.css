@@ -113,3 +113,9 @@ input {
     display: flex;
     gap: 1rem;
 }
+
+.brand {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
