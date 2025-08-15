@@ -3,19 +3,20 @@
 }
 
 * {
-    /* background: #1C1F24; */
-    /*background: radial-gradient(circle at 30% 30%, #2A2B32 0%, #1A1B1E 60%, #0F1012 100%);*/
-    background-size: cover, 100px 100px;
+    background: #1C1F24;
     color: #ececec;
     font-family: "Roboto", "Ubuntu", Arial, sans-serif;
 }
 
+html {
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #0a0b0f, #010e04, #010313, #130109);
+    background-size: 400% 400%;
+    animation: aiGradient 60s ease infinite;
+}
+
 body {
-  min-height: 100vh;
-  background: linear-gradient(-45deg, #0a0b0f, #010e04, #010313, #130109);
-  background-size: 400% 400%;
-  animation: aiGradient 60s ease infinite;
-  color: #E6E6E6; /* Text color for readability */
+  color: #E6E6E6;
 }
 
 @keyframes aiGradient {
@@ -60,5 +61,36 @@ nav {
     padding: .5rem 2rem;
     font-size: 1.2rem;
     line-height: 1.5;
-    color: #dcdcdc; /* Slightly lighter text for intro */
+    color: #dcdcdc;
+}
+
+details:not([open]) {
+    padding: 0.5rem 1rem;
+}
+
+summary {
+    display: flex;
+}
+
+details[open] {
+    summary {
+        padding: 0.5rem 1rem;
+    }
+
+    p.description {
+        padding: 1rem 1.5rem;
+        margin: 0;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+    }
+}
+
+.medium {
+    color: #ff9800;
+}
+.high {
+    color: #f44336;
+}
+.low {
+    color: #4caf50;
 }
