@@ -108,3 +108,8 @@ input {
     border-radius: 8px;
     margin-inline-start: 1rem;
 }
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
