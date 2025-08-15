@@ -576,14 +576,6 @@
         "ai_impact": "This role exists because of AI and is unlikely to be automated soon, though tools may simplify prompt creation."
     },
     {
-        "name": "AI Ethicist",
-        "sector": "AI & Ethics",
-        "risk": "Low",
-        "description": "AI ethicists evaluate the societal impact of AI systems, ensuring fairness, transparency, and accountability in development and deployment.",
-        "tags": ["Ethical", "Policy", "Human-centric", "Strategic"],
-        "ai_impact": "AI cannot self-regulate or make ethical judgments, making this role essential for responsible innovation."
-    },
-    {
         "name": "Synthetic Data Specialist",
         "sector": "AI & Data Science",
         "risk": "Medium",
