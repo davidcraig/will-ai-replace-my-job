@@ -6,10 +6,10 @@ import type { ProfessionData } from '../types/Profession';
 export default function ProfessionList() {
     // Filter professions based on the input value
     const [filterText, setFilterText] = createSignal('');
-    const filteredProfessions = () => {
+    let filteredProfessions = () => {
         return professionData.filter((profession: ProfessionData) =>
             profession.name.toLowerCase().includes(filterText().toLowerCase())
-        );
+        ).sort((a: ProfessionData, b: ProfessionData) => a.name.localeCompare(b.name));
     };
 
     return (
