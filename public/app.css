@@ -106,7 +106,7 @@ details[open] {
     color: #adffaf;
 }
 
-input {
+input, select {
     border: 2px solid hsl(var(--hue), 100%, 50%);
     padding: 0.5rem;
     margin-bottom: 2rem;

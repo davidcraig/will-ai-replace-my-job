@@ -102,7 +102,7 @@
     },
     {
         "name": "Pilot",
-        "risk": "Medium",
+        "risk": "Low",
         "description": "Autopilot systems are advanced, but human pilots are essential for decision-making, emergency response, and passenger reassurance."
     },
     {
