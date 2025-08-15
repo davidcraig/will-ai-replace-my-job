@@ -249,5 +249,106 @@
         "name": "Professional Gamer",
         "risk": "Medium",
         "description": "AI can play games at superhuman levels, but entertainment value, personality, and fan engagement keep human players relevant."
+    },
+
+    {
+        "name": "Video Editor",
+        "risk": "Medium",
+        "description": "AI can automate basic editing, transitions, and even generate highlight reels, but storytelling, pacing, and creative direction still require human input."
+    },
+    {
+        "name": "Film Director",
+        "risk": "Low",
+        "description": "AI can assist with shot planning and script analysis, but vision, leadership, and emotional storytelling are uniquely human."
+    },
+    {
+        "name": "Animator",
+        "risk": "Medium",
+        "description": "AI can generate animations and character movements, but artistic style, timing, and emotional nuance still rely on human creativity."
+    },
+    {
+        "name": "Sound Engineer",
+        "risk": "Medium",
+        "description": "AI can mix and master audio tracks, but live sound management and creative mixing decisions require human expertise."
+    },
+    {
+        "name": "Voice Actor",
+        "risk": "High",
+        "description": "AI-generated voices are increasingly realistic and customizable, posing a significant risk to voice acting in commercial and entertainment sectors."
+    },
+    {
+        "name": "Logistics Coordinator",
+        "risk": "Medium",
+        "description": "AI can optimize routes, inventory, and schedules, but handling disruptions and coordinating across teams still benefits from human oversight."
+    },
+    {
+        "name": "Supply Chain Analyst",
+        "risk": "Medium",
+        "description": "AI excels at predictive analytics and optimization, but strategic planning and vendor relationships require human judgment."
+    },
+    {
+        "name": "Farmer",
+        "risk": "Medium",
+        "description": "AI and robotics can automate planting, harvesting, and monitoring, but land management, decision-making, and adaptability remain human-led."
+    },
+    {
+        "name": "Park Ranger",
+        "risk": "Low",
+        "description": "AI can assist with monitoring wildlife and visitor data, but conservation, education, and emergency response require human presence."
+    },
+    {
+        "name": "Firefighter",
+        "risk": "Low",
+        "description": "AI can assist with hazard prediction and robotics, but physical rescue, decision-making under pressure, and teamwork are human strengths."
+    },
+    {
+        "name": "Police Officer",
+        "risk": "Low",
+        "description": "AI can support surveillance and data analysis, but law enforcement, community engagement, and judgment in dynamic situations require humans."
+    },
+    {
+        "name": "Paramedic",
+        "risk": "Low",
+        "description": "AI can assist with triage and diagnostics, but emergency care, physical intervention, and emotional support are human-driven."
+    },
+    {
+        "name": "Judge",
+        "risk": "Low",
+        "description": "AI can analyze legal precedents, but ethical reasoning, interpretation, and societal judgment are inherently human responsibilities."
+    },
+    {
+        "name": "Receptionist",
+        "risk": "High",
+        "description": "AI-powered virtual assistants can handle scheduling, calls, and basic inquiries, reducing the need for human receptionists in many settings."
+    },
+    {
+        "name": "Proofreader",
+        "risk": "High",
+        "description": "AI tools can detect grammar, spelling, and style issues with high accuracy, making this role highly automatable."
+    },
+    {
+        "name": "Copywriter",
+        "risk": "Medium",
+        "description": "AI can generate marketing copy and product descriptions, but brand voice, persuasion, and originality still benefit from human creativity."
+    },
+    {
+        "name": "UX Designer",
+        "risk": "Medium",
+        "description": "AI can analyze user behavior and suggest interface improvements, but empathy, intuition, and user testing remain human-led."
+    },
+    {
+        "name": "Web Developer",
+        "risk": "Medium",
+        "description": "AI can generate websites and code snippets, but customization, debugging, and integration still require human oversight."
+    },
+    {
+        "name": "IT Support Specialist",
+        "risk": "High",
+        "description": "AI can troubleshoot common issues and guide users through solutions, reducing demand for basic tech support roles."
+    },
+    {
+        "name": "Ethicist",
+        "risk": "Low",
+        "description": "AI can simulate ethical scenarios, but moral reasoning, cultural sensitivity, and philosophical debate are deeply human."
     }
 ]

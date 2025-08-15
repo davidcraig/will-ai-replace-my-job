@@ -40,6 +40,8 @@ export default function ProfessionList() {
                 <option value="risk">Sort by Risk</option>
             </select>
 
+            <span style="margin-left: 1rem;">Results: {resultingProfessions().length}</span>
+
             <div class="grid">
                 {resultingProfessions().map((profession) => (
                     <div>
