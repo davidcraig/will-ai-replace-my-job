@@ -395,5 +395,80 @@
         "name": "Hairdresser",
         "risk": "Low",
         "description": "AI can recommend styles and techniques, but cutting, styling, and personal interaction require human skill."
+    },
+    {
+        "name": "Soldier",
+        "risk": "Low",
+        "description": "AI can assist with surveillance, targeting, and logistics, but physical presence, decision-making under fire, and moral judgment remain human responsibilities."
+    },
+    {
+        "name": "Drone Operator",
+        "risk": "Medium",
+        "description": "AI can automate flight paths and targeting, but oversight, ethical decisions, and mission coordination still require human control."
+    },
+    {
+        "name": "Military Strategist",
+        "risk": "Low",
+        "description": "AI can simulate scenarios and analyze data, but geopolitical insight, creativity, and psychological understanding are human strengths."
+    },
+    {
+        "name": "Cybersecurity Analyst",
+        "risk": "Medium",
+        "description": "AI can detect and respond to threats rapidly, but complex threat analysis and adaptive defense strategies require human expertise."
+    },
+    {
+        "name": "Intelligence Analyst",
+        "risk": "Medium",
+        "description": "AI can process vast data sets and identify patterns, but context, cultural nuance, and strategic interpretation remain human-led."
+    },
+    {
+        "name": "Weapons Technician",
+        "risk": "Medium",
+        "description": "AI can assist with diagnostics and maintenance schedules, but hands-on repair and safety checks require human skill."
+    },
+    {
+        "name": "Combat Medic",
+        "risk": "Low",
+        "description": "AI can assist with triage and diagnostics, but emergency care, field improvisation, and emotional support are human-driven."
+    },
+    {
+        "name": "Military Pilot",
+        "risk": "Medium",
+        "description": "AI can support navigation and targeting, and autonomous drones are advancing, but complex missions and aerial combat still rely on human pilots."
+    },
+    {
+        "name": "Naval Officer",
+        "risk": "Low",
+        "description": "AI can aid in navigation and threat detection, but leadership, tactical decisions, and crew management are human-led."
+    },
+    {
+        "name": "Defense Policy Advisor",
+        "risk": "Low",
+        "description": "AI can model outcomes and analyze data, but diplomacy, ethics, and strategic foresight are human strengths."
+    },
+    {
+        "name": "Military Engineer",
+        "risk": "Medium",
+        "description": "AI can assist with design and logistics, but field adaptability, innovation, and safety oversight require human input."
+    },
+    {
+        "name": "Explosive Ordnance Disposal (EOD) Specialist",
+        "risk": "Medium",
+        "description": "AI and robotics can assist with bomb disposal, but judgment, adaptability, and risk assessment remain human-led."
+    },
+    {
+        "name": "Signals Intelligence Officer",
+        "risk": "Medium",
+        "description": "AI can intercept and decode signals, but interpretation, context, and strategic relevance require human analysis."
+    },
+    {
+        "name": "Military Trainer",
+        "risk": "Low",
+        "description": "AI can simulate scenarios and track performance, but mentorship, discipline, and leadership development are human strengths."
+    },
+    {
+        "name": "Defense Contractor",
+        "risk": "Medium",
+        "description": "AI can streamline manufacturing and logistics, but innovation, compliance, and client relations still require human oversight."
     }
 ]
