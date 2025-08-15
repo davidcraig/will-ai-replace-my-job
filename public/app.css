@@ -1,7 +1,23 @@
 * {
-    background: #131313;
+    /* background: #1C1F24; */
+    /*background: radial-gradient(circle at 30% 30%, #2A2B32 0%, #1A1B1E 60%, #0F1012 100%);*/
+    background-size: cover, 100px 100px;
     color: #ececec;
     font-family: "Roboto", "Ubuntu", Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #0a0b0f, #010e04, #010313, #130109);
+  background-size: 400% 400%;
+  animation: aiGradient 60s ease infinite;
+  color: #E6E6E6; /* Text color for readability */
+}
+
+@keyframes aiGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 nav {
@@ -9,6 +25,8 @@ nav {
     flex-direction: row;
     padding: 1rem;
     background: rgba(0, 0, 0, 0.8);
+    gap: 1rem;
+    justify-content: space-between;
 }
 
 .contained {
