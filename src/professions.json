@@ -426,12 +426,6 @@
         "sector": "Hospitality"
     },
     {
-        "name": "Bartender",
-        "risk": "Medium",
-        "description": "AI can mix drinks and handle transactions, but social interaction, flair, and improvisation are human strengths.",
-        "sector": "Food Service"
-    },
-    {
         "name": "Carpenter",
         "risk": "Low",
         "description": "AI can assist with design and measurements, but craftsmanship, material handling, and on-site decisions are human-driven.",
