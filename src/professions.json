@@ -550,5 +550,45 @@
         "risk": "Medium",
         "description": "AI can streamline manufacturing and logistics, but innovation, compliance, and client relations still require human oversight.",
         "sector": "Military"
+    },
+    {
+        "name": "Tattoo Artist",
+        "sector": "Arts & Design",
+        "risk": "Low",
+        "description": "Tattoo artists create permanent body art using specialized tools and techniques. The role requires creativity, manual dexterity, and close client interaction.",
+        "tags": ["Creative", "Manual", "Client-facing", "Human-centric"],
+        "ai_impact": "AI may assist with design generation, but cannot replicate the precision, trust, and physical artistry required for tattooing."
+    },
+    {
+        "name": "City Planner",
+        "sector": "Public Sector & Urban Development",
+        "risk": "Medium",
+        "description": "City planners develop land use plans and programs to help communities grow sustainably. They analyze data, consult stakeholders, and balance environmental, economic, and social factors.",
+        "tags": ["Analytical", "Policy", "Human-centric", "Data-driven"],
+        "ai_impact": "AI can support data analysis and simulation modeling, but human judgment is essential for ethical and community-based decisions."
+    },
+    {
+        "name": "Prompt Engineer",
+        "sector": "AI & Machine Learning",
+        "risk": "Low",
+        "description": "Prompt engineers craft effective inputs for AI systems to optimize outputs. They understand model behavior and fine-tune prompts for accuracy and relevance.",
+        "tags": ["Technical", "AI-assisted", "Emerging", "Creative"],
+        "ai_impact": "This role exists because of AI and is unlikely to be automated soon, though tools may simplify prompt creation."
+    },
+    {
+        "name": "AI Ethicist",
+        "sector": "AI & Ethics",
+        "risk": "Low",
+        "description": "AI ethicists evaluate the societal impact of AI systems, ensuring fairness, transparency, and accountability in development and deployment.",
+        "tags": ["Ethical", "Policy", "Human-centric", "Strategic"],
+        "ai_impact": "AI cannot self-regulate or make ethical judgments, making this role essential for responsible innovation."
+    },
+    {
+        "name": "Synthetic Data Specialist",
+        "sector": "AI & Data Science",
+        "risk": "Medium",
+        "description": "Synthetic data specialists generate artificial datasets to train machine learning models while preserving privacy and diversity.",
+        "tags": ["Technical", "Data-driven", "Emerging", "AI-assisted"],
+        "ai_impact": "AI tools can assist in generation, but human oversight is needed to ensure quality, relevance, and ethical use."
     }
 ]
