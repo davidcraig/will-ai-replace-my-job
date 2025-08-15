@@ -156,11 +156,6 @@
         "description": "AI can assist with data analysis and simulations, but fieldwork, hypothesis generation, and experimental design require human intuition and adaptability."
     },
     {
-        "name": "Research Scientist",
-        "risk": "Medium",
-        "description": "AI can accelerate data processing and pattern recognition, but scientific innovation and critical thinking remain human strengths."
-    },
-    {
         "name": "Dentist",
         "risk": "Low",
         "description": "AI can aid in diagnostics and treatment planning, but dental procedures require precision, dexterity, and patient interaction."
@@ -169,11 +164,6 @@
         "name": "Veterinarian",
         "risk": "Low",
         "description": "AI can help with diagnostics, but animal care, surgery, and emotional support for pet owners require human expertise."
-    },
-    {
-        "name": "Architect",
-        "risk": "Medium",
-        "description": "AI can generate building designs and optimize structures, but client collaboration, aesthetic judgment, and regulatory navigation are human-led."
     },
     {
         "name": "Civil Engineer",
@@ -377,16 +367,6 @@
         "description": "AI can mix drinks and handle transactions, but social interaction, flair, and improvisation are human strengths."
     },
     {
-        "name": "Electrician",
-        "risk": "Low",
-        "description": "AI can assist with diagnostics and planning, but hands-on work, safety decisions, and adaptability require human expertise."
-    },
-    {
-        "name": "Plumber",
-        "risk": "Low",
-        "description": "AI can help with system mapping and leak detection, but physical repair and problem-solving are human-led."
-    },
-    {
         "name": "Carpenter",
         "risk": "Low",
         "description": "AI can assist with design and measurements, but craftsmanship, material handling, and on-site decisions are human-driven."
@@ -405,11 +385,6 @@
         "name": "Interior Designer",
         "risk": "Medium",
         "description": "AI can suggest layouts and styles, but taste, personalization, and emotional resonance are human strengths."
-    },
-    {
-        "name": "Fashion Designer",
-        "risk": "Medium",
-        "description": "AI can generate patterns and predict trends, but originality, cultural relevance, and artistic vision remain human-led."
     },
     {
         "name": "Makeup Artist",
