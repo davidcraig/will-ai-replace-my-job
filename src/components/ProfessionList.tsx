@@ -13,8 +13,15 @@ export default function ProfessionList() {
             profession.name.toLowerCase().includes(filterText().toLowerCase())
         );
         
-        if (sortBy() === 'risk') {
+        if (sortBy() === 'risk-high-low') {
             const riskOrder = ['High', 'Medium', 'Low', 'Very Low'];
+            return filtered.sort((a: ProfessionData, b: ProfessionData) => {
+                return riskOrder.indexOf(a.risk) - riskOrder.indexOf(b.risk);
+            });
+        }
+
+        if (sortBy() === 'risk-low-high') {
+            const riskOrder = ['Very Low', 'Low', 'Medium',  'High'];
             return filtered.sort((a: ProfessionData, b: ProfessionData) => {
                 return riskOrder.indexOf(a.risk) - riskOrder.indexOf(b.risk);
             });
@@ -37,7 +44,8 @@ export default function ProfessionList() {
             
             <select onChange={(e) => setSortBy(e.currentTarget.value)} value={sortBy()}>
                 <option value="name">Sort by Name</option>
-                <option value="risk">Sort by Risk</option>
+                <option value="risk-high-low">Sort by Risk (High to Low)</option>
+                <option value="risk-low-high">Sort by Risk (Low to High)</option>
             </select>
 
             <span style="margin-left: 1rem;">Results: {resultingProfessions().length}</span>

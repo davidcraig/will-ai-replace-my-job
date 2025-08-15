@@ -350,5 +350,75 @@
         "name": "Ethicist",
         "risk": "Low",
         "description": "AI can simulate ethical scenarios, but moral reasoning, cultural sensitivity, and philosophical debate are deeply human."
+    },
+    {
+        "name": "Librarian",
+        "risk": "Medium",
+        "description": "AI can manage cataloging and information retrieval, but community engagement, curation, and literacy programs require human input."
+    },
+    {
+        "name": "Research Scientist",
+        "risk": "Low",
+        "description": "AI can accelerate data analysis and simulations, but hypothesis generation, experimentation, and interpretation are human-driven."
+    },
+    {
+        "name": "Lab Technician",
+        "risk": "Medium",
+        "description": "AI and robotics can automate many lab procedures, but troubleshooting, sample handling, and safety oversight still need humans."
+    },
+    {
+        "name": "Hotel Manager",
+        "risk": "Medium",
+        "description": "AI can optimize bookings and customer service, but hospitality, crisis management, and team leadership remain human-led."
+    },
+    {
+        "name": "Bartender",
+        "risk": "Medium",
+        "description": "AI can mix drinks and handle transactions, but social interaction, flair, and improvisation are human strengths."
+    },
+    {
+        "name": "Electrician",
+        "risk": "Low",
+        "description": "AI can assist with diagnostics and planning, but hands-on work, safety decisions, and adaptability require human expertise."
+    },
+    {
+        "name": "Plumber",
+        "risk": "Low",
+        "description": "AI can help with system mapping and leak detection, but physical repair and problem-solving are human-led."
+    },
+    {
+        "name": "Carpenter",
+        "risk": "Low",
+        "description": "AI can assist with design and measurements, but craftsmanship, material handling, and on-site decisions are human-driven."
+    },
+    {
+        "name": "Mechanic",
+        "risk": "Medium",
+        "description": "AI can diagnose issues and guide repairs, but hands-on work, improvisation, and customer interaction still require humans."
+    },
+    {
+        "name": "Architect",
+        "risk": "Medium",
+        "description": "AI can generate design concepts and optimize structures, but creativity, client collaboration, and aesthetics are human-led."
+    },
+    {
+        "name": "Interior Designer",
+        "risk": "Medium",
+        "description": "AI can suggest layouts and styles, but taste, personalization, and emotional resonance are human strengths."
+    },
+    {
+        "name": "Fashion Designer",
+        "risk": "Medium",
+        "description": "AI can generate patterns and predict trends, but originality, cultural relevance, and artistic vision remain human-led."
+    },
+    {
+        "name": "Makeup Artist",
+        "risk": "Low",
+        "description": "AI can simulate looks and offer tutorials, but application, customization, and client rapport are human-driven."
+    },
+    {
+        "name": "Hairdresser",
+        "risk": "Low",
+        "description": "AI can recommend styles and techniques, but cutting, styling, and personal interaction require human skill."
     }
 ]
