@@ -52,7 +52,7 @@ nav {
 
 .grid-layout {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 1fr 350px;
     gap: 1rem;
 }
 
