@@ -49,5 +49,205 @@
         "name": "Journalist",
         "risk": "Medium",
         "description": "AI can generate basic news reports and summaries, but investigative journalism, interviews, and nuanced storytelling still rely heavily on human insight."
+    },
+    {
+        "name": "Doctor",
+        "risk": "Low",
+        "description": "AI can assist with diagnostics and data analysis, but patient care, ethical decision-making, and surgical precision still require human expertise and accountability."
+    },
+    {
+        "name": "Radiologist",
+        "risk": "Medium",
+        "description": "AI excels at image recognition and can detect anomalies in scans, but human oversight is crucial for complex cases and final diagnosis."
+    },
+    {
+        "name": "Pharmacist",
+        "risk": "Medium",
+        "description": "AI can automate prescription dispensing and drug interaction checks, but pharmacists provide essential patient guidance and handle nuanced medical decisions."
+    },
+    {
+        "name": "Retail Cashier",
+        "risk": "High",
+        "description": "Self-checkout systems and AI-powered kiosks are increasingly replacing traditional cashier roles, especially in large retail chains."
+    },
+    {
+        "name": "Chef",
+        "risk": "Very Low",
+        "description": "While AI can assist with recipe generation and robotic cooking, the creativity, presentation, and adaptability of chefs remain uniquely human."
+    },
+    {
+        "name": "Waiter/Waitress",
+        "risk": "Medium",
+        "description": "Some restaurants use robots or tablets for ordering, but human servers offer personalized service, upselling, and emotional engagement."
+    },
+    {
+        "name": "Financial Analyst",
+        "risk": "Medium",
+        "description": "AI can analyze market trends and generate reports, but strategic investment decisions and client relationships still rely on human judgment."
+    },
+    {
+        "name": "Musician",
+        "risk": "Low",
+        "description": "AI can compose music, but emotional expression, live performance, and cultural relevance are deeply tied to human creativity."
+    },
+    {
+        "name": "Actor",
+        "risk": "Low",
+        "description": "AI-generated avatars and deepfakes exist, but authentic performance, improvisation, and emotional depth are uniquely human."
+    },
+    {
+        "name": "Warehouse Worker",
+        "risk": "High",
+        "description": "AI and robotics are increasingly used for inventory management, picking, and packing, reducing the need for manual labor in large-scale operations."
+    },
+    {
+        "name": "Pilot",
+        "risk": "Medium",
+        "description": "Autopilot systems are advanced, but human pilots are essential for decision-making, emergency response, and passenger reassurance."
+    },
+    {
+        "name": "Flight Attendant",
+        "risk": "Low",
+        "description": "Customer service, safety procedures, and emergency response require human presence and empathy."
+    },
+    {
+        "name": "Psychologist",
+        "risk": "Low",
+        "description": "AI can offer mental health support tools, but therapeutic relationships, empathy, and complex emotional understanding are human strengths."
+    },
+    {
+        "name": "Human Resources",
+        "risk": "Medium",
+        "description": "AI can screen resumes and schedule interviews, but conflict resolution, culture building, and employee engagement require human insight."
+    },
+    {
+        "name": "Event Planner",
+        "risk": "Medium",
+        "description": "AI can assist with logistics and scheduling, but creativity, negotiation, and real-time problem-solving are human-driven."
+    },
+    {
+        "name": "Security Guard",
+        "risk": "Medium",
+        "description": "AI surveillance systems can monitor environments, but physical presence and judgment in unpredictable situations still require humans."
+    },
+    {
+        "name": "Janitor",
+        "risk": "Medium",
+        "description": "Robotic cleaning systems exist, but adaptability to different environments and detailed cleaning tasks still favor human workers."
+    },
+    {
+        "name": "Plumber",
+        "risk": "Low",
+        "description": "AI cannot easily navigate the physical complexity and variability of plumbing systems. Diagnosis and repair require hands-on expertise."
+    },
+    {
+        "name": "Electrician",
+        "risk": "Low",
+        "description": "Electrical work involves safety risks, problem-solving, and physical dexterity that are currently beyond AI capabilities."
+    },
+    {
+        "name": "Fashion Designer",
+        "risk": "Medium",
+        "description": "AI can generate clothing designs, but trend forecasting, cultural relevance, and artistic vision remain human-led."
+    },
+    {
+        "name": "Biologist",
+        "risk": "Low",
+        "description": "AI can assist with data analysis and simulations, but fieldwork, hypothesis generation, and experimental design require human intuition and adaptability."
+    },
+    {
+        "name": "Research Scientist",
+        "risk": "Medium",
+        "description": "AI can accelerate data processing and pattern recognition, but scientific innovation and critical thinking remain human strengths."
+    },
+    {
+        "name": "Dentist",
+        "risk": "Low",
+        "description": "AI can aid in diagnostics and treatment planning, but dental procedures require precision, dexterity, and patient interaction."
+    },
+    {
+        "name": "Veterinarian",
+        "risk": "Low",
+        "description": "AI can help with diagnostics, but animal care, surgery, and emotional support for pet owners require human expertise."
+    },
+    {
+        "name": "Architect",
+        "risk": "Medium",
+        "description": "AI can generate building designs and optimize structures, but client collaboration, aesthetic judgment, and regulatory navigation are human-led."
+    },
+    {
+        "name": "Civil Engineer",
+        "risk": "Medium",
+        "description": "AI can assist with modeling and structural analysis, but on-site decision-making and safety oversight require human involvement."
+    },
+    {
+        "name": "Real Estate Agent",
+        "risk": "Medium",
+        "description": "AI can match buyers with properties and automate paperwork, but negotiation, local expertise, and client relationships remain human-driven."
+    },
+    {
+        "name": "Barista",
+        "risk": "Medium",
+        "description": "Automated coffee machines exist, but customer interaction, customization, and café culture still favor human baristas."
+    },
+    {
+        "name": "Bartender",
+        "risk": "Low",
+        "description": "Robotic bartenders can mix drinks, but social engagement, improvisation, and hospitality are human strengths."
+    },
+    {
+        "name": "Professional Athlete",
+        "risk": "Low",
+        "description": "AI can analyze performance and strategy, but competition, physical skill, and fan engagement are inherently human."
+    },
+    {
+        "name": "Fitness Trainer",
+        "risk": "Low",
+        "description": "AI can offer workout plans, but motivation, form correction, and emotional support are best delivered by humans."
+    },
+    {
+        "name": "Mechanic",
+        "risk": "Medium",
+        "description": "AI can assist with diagnostics, but hands-on repair, improvisation, and customer service still require human skill."
+    },
+    {
+        "name": "Librarian",
+        "risk": "Medium",
+        "description": "AI can manage cataloging and search systems, but community engagement, curation, and educational support remain human-led."
+    },
+    {
+        "name": "Translator",
+        "risk": "High",
+        "description": "AI translation tools are highly advanced, especially for common languages. Nuance, cultural context, and rare languages still require human translators."
+    },
+    {
+        "name": "Interpreter",
+        "risk": "Medium",
+        "description": "AI can handle basic live translation, but emotional tone, cultural sensitivity, and real-time adaptation favor human interpreters."
+    },
+    {
+        "name": "Tour Guide",
+        "risk": "Low",
+        "description": "AI can provide information, but storytelling, humor, and personal interaction make human guides more engaging."
+    },
+    {
+        "name": "Social Worker",
+        "risk": "Low",
+        "description": "AI can assist with case management, but empathy, crisis intervention, and advocacy are deeply human tasks."
+    },
+    {
+        "name": "Politician",
+        "risk": "Low",
+        "description": "AI can analyze public opinion and policy impacts, but leadership, persuasion, and democratic representation require human agency."
+    },
+    {
+        "name": "Clergy Member",
+        "risk": "Low",
+        "description": "Spiritual guidance, pastoral care, and community leadership are deeply personal and human-centered roles."
+    },
+    {
+        "name": "Professional Gamer",
+        "risk": "Medium",
+        "description": "AI can play games at superhuman levels, but entertainment value, personality, and fan engagement keep human players relevant."
     }
 ]
