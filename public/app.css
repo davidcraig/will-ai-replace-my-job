@@ -1,0 +1,29 @@
+* {
+    background: #131313;
+    color: #ececec;
+    font-family: "Roboto", "Ubuntu", Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contained {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
