@@ -19,11 +19,13 @@ export default function ProfessionList() {
                 onInput={(e) => setFilterText(e.currentTarget.value)}
                 value={filterText()} />
 
-            {filteredProfessions().map((profession) => (
-                <div>
-                    <Profession {...profession} />
-                </div>
-            ))}
+            <div class="grid">
+                {filteredProfessions().map((profession) => (
+                    <div>
+                        <Profession {...profession} />
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
