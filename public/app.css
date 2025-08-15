@@ -86,15 +86,25 @@ details[open] {
         margin: 0;
         background: rgba(0, 0, 0, 0.1);
         border-radius: 4px;
+        line-height: 1.6;
+        font-size: 1.25rem;
     }
 }
 
 .medium {
-    color: #ff9800;
+    color: #ffc061;
 }
 .high {
-    color: #f44336;
+    color: #ff7171;
 }
 .low {
-    color: #4caf50;
+    color: #adffaf;
+}
+
+input {
+    border: 2px solid #ececec;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    margin-inline-start: 1rem;
 }

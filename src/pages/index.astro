@@ -3,19 +3,15 @@ import Layout from '../layouts/Layout.astro';
 import type { ProfessionData } from '../types/Profession.ts';
 import professions from '../professions.json';
 import Profession from '../components/Profession.tsx';
+import ProfessionList from '../components/ProfessionList.tsx';
 ---
 
 <Layout>
 	<div class="grid-layout p-4">
 		<main>
 		  <p class="intro">All information on this site is subjective, opinionated, and for educational or discussion purposes. Any errors or assumptions are of the authors opinion, however you are free to open up discussion on the github project page.</p>
-
 		  
-		  {professions.map((profession): ProfessionData => (
-			<div>
-				<Profession {...profession} />
-			</div>
-		  ))}
+		  <ProfessionList client:only />
 		</main>
 		<aside>
 		  <div id="adsense">

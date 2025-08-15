@@ -6,7 +6,7 @@ export default function Profession({ name, description, risk }: ProfessionData) 
       <summary>
           {name}<span style="margin-left: auto;">Risk: <span class={risk.toLocaleLowerCase()}>{risk}</span></span>
       </summary>
-        <p class="description">{description}</p>
+        <p class={`${risk.toLocaleLowerCase()} description`}>{description}</p>
     </details>
   );
 }
