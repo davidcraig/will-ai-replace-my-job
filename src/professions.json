@@ -1,7 +1,53 @@
 [
     {
+        "name": "Accountant",
+        "risk": "Medium",
+        "description": "AI can automate bookkeeping and tax preparation, but complex financial planning and regulatory interpretation still require human expertise."
+    },
+    {
+        "name": "Customer Service Representative",
+        "risk": "High",
+        "description": "AI chatbots and voice assistants are increasingly capable of handling customer queries, especially for standardized issues. Human reps are still needed for complex or emotionally sensitive interactions."
+    },
+    {
+        "name": "Construction Worker",
+        "risk": "Low",
+        "description": "Physical labor, adaptability to changing environments, and safety considerations make this role difficult to automate with current AI and robotics."
+    },
+    {
+        "name": "Data Entry Clerk",
+        "risk": "High",
+        "description": "AI and automation tools can process, extract, and input data far faster and more accurately than humans, making this role highly susceptible to replacement."
+    },
+    {
+        "name": "Graphic Designer",
+        "risk": "Medium",
+        "description": "AI tools can generate images, logos, and layouts quickly, but lack the nuanced creativity and brand understanding that human designers bring. AI may replace basic design tasks but not high-level creative direction."
+    },
+    {
         "name": "Software Engineer",
         "risk": "Medium",
         "description": "Currently AI can write code, however it is not always the best code or even correct code, usually a programmer paired with AI can be a more efficient programmer, however at least for now, AI is not a solve of the problem, merely a tool to aid the engineers."
+    },
+    {
+        "name": "Teacher",
+        "risk": "Low",
+        "description": "While AI can assist with personalized learning and grading, the human connection, mentorship, and classroom management provided by teachers are difficult to replicate."
+    },
+    {
+        "name": "Truck Driver",
+        "risk": "Medium",
+        "description": "Autonomous vehicle technology is advancing, but widespread adoption faces regulatory, safety, and infrastructure hurdles. Human drivers remain essential for now, especially in complex or rural environments."
+    },
+    {
+        "name": "Lawyer",
+        "risk": "Low",
+        "description": "AI can assist with legal research and document review, but legal strategy, courtroom advocacy, and client counseling require human judgment and ethical reasoning."
+    },
+    
+    {
+        "name": "Journalist",
+        "risk": "Medium",
+        "description": "AI can generate basic news reports and summaries, but investigative journalism, interviews, and nuanced storytelling still rely heavily on human insight."
     }
 ]
