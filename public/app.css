@@ -1,3 +1,7 @@
+:root {
+    --hue: 210;
+}
+
 * {
     /* background: #1C1F24; */
     /*background: radial-gradient(circle at 30% 30%, #2A2B32 0%, #1A1B1E 60%, #0F1012 100%);*/
@@ -24,9 +28,9 @@ nav {
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    background: rgba(0, 0, 0, 0.8);
     gap: 1rem;
     justify-content: space-between;
+    background: hsl(var(--hue), 100%, 10%);
 }
 
 .contained {
@@ -44,4 +48,17 @@ nav {
 
 .p-4 {
     padding: 1rem;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1rem;
+}
+
+.intro {
+    padding: .5rem 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #dcdcdc; /* Slightly lighter text for intro */
 }
