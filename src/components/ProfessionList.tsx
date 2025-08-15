@@ -8,10 +8,10 @@ export default function ProfessionList() {
     const [filterText, setFilterText] = createSignal('');
     const [sortBy, setSortBy] = createSignal('name');
 
-    let resultingProfessions = () => {
+    const resultingProfessions = () => {
         const filtered = professionData.filter((profession: ProfessionData) =>
-            profession.name.toLowerCase().includes(filterText().toLowerCase()
-        ));
+            profession.name.toLowerCase().includes(filterText().toLowerCase())
+        );
         
         if (sortBy() === 'risk') {
             const riskOrder = ['High', 'Medium', 'Low', 'Very Low'];
@@ -23,6 +23,9 @@ export default function ProfessionList() {
         if (sortBy() === 'name') {
             return filtered.sort((a: ProfessionData, b: ProfessionData) => a.name.localeCompare(b.name));
         }
+
+        // Default: return filtered if sortBy is neither 'risk' nor 'name'
+        return filtered;
     };
 
     return (
